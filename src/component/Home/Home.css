@@ -1,5 +1,5 @@
 .homeBackground{
-  background-image: url('../../src/resourseTG/Image/Rectangle\ 1.png');
+  background-image: url('../../component/resourseTG/Image/Rectangle\ 1.png');
   background-repeat:no-repeat;
     /* background-position:cover; */
     background-size: cover;
@@ -9,4 +9,12 @@
 }
 .trasparent{
   color: rgba(0, 0, 0, 0)
+}
+
+.card{
+  background-color: rgba(255, 255, 255, 0.35)
+}
+
+.wt-color{
+  color: white;
 }

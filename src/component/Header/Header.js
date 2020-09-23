@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
-import Logo from './Logo.png'
+import Logo from '../Header/Logo.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Header = () => {

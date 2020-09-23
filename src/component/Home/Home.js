@@ -1,8 +1,11 @@
 import React from 'react';
-import './Home.css'
-import Sajek from '../../src/resourseTG/Image/Sajek.png'
-import Sreemongol from '../../src/resourseTG/Image/Sreemongol.png'
-import sundorbon from '../../src/resourseTG/Image/sundorbon.png'
+import '../Home/Home.css'
+import Sajek from '../../component/resourseTG/Image/Sajek.png'
+import Sreemongol from '../../component/resourseTG/Image/Sreemongol.png'
+import sundorbon from '../../component/resourseTG/Image/sundorbon.png'
+// import Sajek from '../../src/resourseTG/Image/Sajek.png'
+// import  from '../../src/resourseTG/Image/Sreemongol.png'
+// import sundorbon from '../../src/resourseTG/Image/'
 
 
 
@@ -10,7 +13,7 @@ const Home = () => {
   return (
     <div className='homeBackground'>
       <h1 className='trasparent'> .</h1>
-      <h1 className='trasparent'> .</h1>
+      <h1 className='trasparent'> ..</h1>
       <h1 className='trasparent'> .</h1>
       <h1 className='trasparent'> .</h1>
       <div className="d-flex flex-row-reverse" >     {/*We have used bootstrap cards to show components*/} 
