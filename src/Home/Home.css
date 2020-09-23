@@ -1,0 +1,12 @@
+.homeBackground{
+  background-image: url('../../src/resourseTG/Image/Rectangle\ 1.png');
+  background-repeat:no-repeat;
+    /* background-position:cover; */
+    background-size: cover;
+    background-position: absolute;
+    /* height: 900px; */
+    
+}
+.trasparent{
+  color: rgba(0, 0, 0, 0)
+}
