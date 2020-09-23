@@ -6,14 +6,16 @@ const Booking = () => {
 
   const {dataId} = useParams()
   const placeDetails = fakeData.find(data => data.id === dataId)
-  const {name, description} = placeDetails;
+  const {name, description, img} = placeDetails;
 
   return (
     
     <div  className="row d-flex justify-content-center align-items-center ">
     <div className="col-sm-4">
+        <img style={{height:"200px", paddingTop:'1px'}} src={img} alt=""/>
         <h1>{name}</h1>
         <p>{description}</p>
+        
     </div>
     <div className="col-sm-4 form-style">   
         <form> 
