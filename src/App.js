@@ -10,14 +10,13 @@ import Header from './component/Header/Header';
 import Login from './component/Login/Login';
 import Home from './component/Home/Home';
 import NoMatch from './component/NoMatch/NoMatch';
+import Booking from './component/Booking/Booking';
 // import Hotel from './component/Hotel/Hotel';
 
 
 function App() {
   return (
     <div>
-      
-
      <Router>
        <Header></Header>
        <Switch>
@@ -30,9 +29,12 @@ function App() {
          <Route exact path="/login">
          <Login></Login>
          </Route>
+         <Route exact path="/booking/:dataId">
+         <Booking></Booking>
+         </Route>
          <Route path="*">
-            <NoMatch />
-          </Route>
+         <NoMatch />
+         </Route>
 
        </Switch>
      </Router>
