@@ -1,9 +1,11 @@
 .homeBackground{
-  background-image: url('../../component/resourseTG/Image/Rectangle\ 1.png');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.809), rgba(0, 0, 0, 0.5) ), url('../../component/resourseTG/Image/Rectangle\ 1.png');
   background-repeat:no-repeat;
-    /* background-position:cover; */
     background-size: cover;
     background-position: absolute;
+    
+
+    
     /* height: 900px; */
     
 }
@@ -12,9 +14,10 @@
 }
 
 .card{
-  background-color: rgba(255, 255, 255, 0.35)
+  background-color: rgba(255, 255, 255, 0.179)
 }
 
 .wt-color{
   color: white;
 }
+

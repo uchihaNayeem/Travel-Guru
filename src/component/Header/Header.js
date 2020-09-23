@@ -13,7 +13,7 @@ const Header = () => {
                         <FormControl type="text" placeholder="Search Your Destination" className="mr-sm-2" />
                     </Form>
                 </Nav>
-                <Nav>                       {/* This are our navigation bar */}
+                <Nav>
                     <Nav.Link href="/hotel">Destination</Nav.Link>
                     <Nav.Link href="/hotel">Blog</Nav.Link>
                     <Nav.Link href="/hotel">Hotel</Nav.Link>

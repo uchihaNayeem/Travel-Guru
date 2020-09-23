@@ -1,0 +1,22 @@
+.bookingBg{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.809), rgba(0, 0, 0, 0.5) ), url('../resourseTG/Image/Rectangle\ 1.png');
+  background-repeat:no-repeat;
+    background-size: cover;
+    background-position: absolute;
+    height: 900px;
+    
+}
+
+.bgWhite{
+  background-color: white;
+  padding: 10px;
+}
+
+.colorWhite{
+  color: white;
+  
+}
+
+.center{
+  text-align: center;
+}
