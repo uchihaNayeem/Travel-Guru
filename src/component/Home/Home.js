@@ -15,10 +15,10 @@ const Home = () => {
   return (
     <div className='homeBackground'>
       <h1 className='trasparent'> .</h1>
-      <h1 className='trasparent'> ..</h1>
       <h1 className='trasparent'> .</h1>
       <h1 className='trasparent'> .</h1>
-      <div className="d-flex flex-row-reverse" >     {/*We have used bootstrap cards to show components*/} 
+      <h1 className='trasparent'> .</h1>
+      <div className="d-flex flex-row-reverse" >
             <div class="card" style={{width:"25%"}}>
                 <img src={Sajek} class="card-img-top" alt="..."></img>
                 <div class="card-body">
