@@ -12,6 +12,7 @@ import Home from './component/Home/Home';
 import NoMatch from './component/NoMatch/NoMatch';
 import Booking from './component/Booking/Booking';
 import Hotel from './component/Hotel/Hotel';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
 // import Hotel from './component/Hotel/Hotel';
 
 export const UserContext = createContext();
@@ -33,9 +34,11 @@ function App() {
          <Route  path="/login">
          <Login></Login>
          </Route>
-         <Route  path="/hotel">
+
+         <PrivateRoute  path="/hotel">
          <Hotel></Hotel>
-         </Route>
+         </PrivateRoute>
+         
          <Route  path="/booking/:dataId">
          <Booking></Booking>
          </Route>
