@@ -11,6 +11,7 @@ import Login from './component/Login/Login';
 import Home from './component/Home/Home';
 import NoMatch from './component/NoMatch/NoMatch';
 import Booking from './component/Booking/Booking';
+import Hotel from './component/Hotel/Hotel';
 // import Hotel from './component/Hotel/Hotel';
 
 export const UserContext = createContext();
@@ -29,10 +30,13 @@ function App() {
          <Route exact path="/">
          <Home></Home>
          </Route>
-         <Route exact path="/login">
+         <Route  path="/login">
          <Login></Login>
          </Route>
-         <Route exact path="/booking/:dataId">
+         <Route  path="/hotel">
+         <Hotel></Hotel>
+         </Route>
+         <Route  path="/booking/:dataId">
          <Booking></Booking>
          </Route>
          <Route path="*">

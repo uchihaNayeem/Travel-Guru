@@ -33,7 +33,7 @@ const Booking = () => {
         </form>
         <br/>
         <div className='center'>
-        <button type="button" class="btn btn-warning btn-lg "><Link to="/login">Start Booking</Link> </button>
+        <button type="button" class="btn btn-warning btn-lg "><Link to="/hotel">Start Booking</Link> </button>
         </div>
     </div>
 </div>
