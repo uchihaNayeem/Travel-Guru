@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { createContext, useState } from 'react';
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,10 +13,13 @@ import NoMatch from './component/NoMatch/NoMatch';
 import Booking from './component/Booking/Booking';
 // import Hotel from './component/Hotel/Hotel';
 
+export const UserContext = createContext();
 
 function App() {
+  const [loggedInUser, setLoggedInUser] = useState({});
   return (
-    <div>
+    <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
+      <p>Name: {loggedInUser.name}</p>
      <Router>
        <Header></Header>
        <Switch>
@@ -38,8 +41,9 @@ function App() {
 
        </Switch>
      </Router>
+     </UserContext.Provider>
 
-    </div>
+    
   );
 }
 
