@@ -14,3 +14,15 @@
   width: 30%;
   margin: 30px auto;
 }
+
+.google-button{
+
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 40px; 
+  width: 24%;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  height: 40px;
+  color: blue;
+}

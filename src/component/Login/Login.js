@@ -64,6 +64,8 @@ const Login = () => {
       <br/>
 
       <button className='google-button' onClick={handleGoogleSignIn} >Google SignIn</button>
+      <br/>
+      <button className='google-button' >Facebook SignIn</button>
 
     </div>
   );
