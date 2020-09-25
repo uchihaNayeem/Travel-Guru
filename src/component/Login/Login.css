@@ -1,0 +1,16 @@
+.signIn-button{
+  width : 70px;
+  height: 10%;
+  background-color: orange;
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid orange;
+  color: black;
+}
+
+.form-style{
+  border: 1px solid black;
+  width: 30%;
+  margin: 30px auto;
+}

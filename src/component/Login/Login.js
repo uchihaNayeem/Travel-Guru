@@ -4,6 +4,7 @@ import "firebase/auth";
 import firebaseConfig from './firebase.config';
 import {UserContext} from "../../App"
 import { useHistory, useLocation } from 'react-router-dom';
+import '../Login/Login.css'
 
 const Login = () => {
   const [loggedInUser, setLoggedInUser] = useContext(UserContext)
@@ -42,9 +43,28 @@ const Login = () => {
     });
   }
   return (
-    <div>
+    <div style={{textAlign: 'center'}}>
+      
+      <br/>
+
+      <form action="" className='form-style'>
       <h2>login</h2>
-      <button onClick={handleGoogleSignIn} >Google SignIn</button>
+        <input type="email" name="email" placeholder="Enter You Email"/>
+        <br/>
+        <br/>
+        <input type="password" name="password" placeholder="Enter You Password"/>
+        <br/>
+        <br/>
+
+        <input type="submit" class="signIn-button" value="Sign In"></input>
+        <br/>
+        <br/>
+
+      </form>
+      <br/>
+
+      <button className='google-button' onClick={handleGoogleSignIn} >Google SignIn</button>
+
     </div>
   );
 };
